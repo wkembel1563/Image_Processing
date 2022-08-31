@@ -16,6 +16,7 @@ create_img_pyramid.py
 
 stitch_images.py
 - This script produces a model capable of stitching two images together using SIFT features and the RANSAC algorithm
+- It uses two images from the IMAGES folder to demonstrate
 
 ## Helper Files
 
