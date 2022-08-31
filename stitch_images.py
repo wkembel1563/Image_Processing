@@ -34,12 +34,4 @@ error_threshold = 5.0
 model_type = "projective"
 
 model_params = ransac(match1, match2, iterations, min_samples, error_threshold, model_type)
-######################################
-exit(1)
-
-"""
-use model to stitch images together
-** remember to divide transformed points by 'w' to get final value
-when using projective matrix
-"""
 
